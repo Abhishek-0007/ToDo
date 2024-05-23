@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel = "stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="todoApp">
+            <h2>
+                Add Todo Items
+            </h2>
+            <label for="Add">Todo name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <button onclick="addTodo()">Add</button>
+            <button onclick="removeTodo()">Remove</button>
+
+            <ol id="list">
+            </ol>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
